@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to the academic website of [Amlan Sinha](https://amlan-sinha.github.io), a Ph.D. candidate in Mechanical and Aerospace Engineering at Princeton University. Amlan specializes in the fields of dynamical systems, optimal control, and optimization, dedicating his research to advancing our understanding and capabilities in space mission design.
+Welcome to the academic website of Amlan Sinha, a Ph.D. candidate in Mechanical and Aerospace Engineering at Princeton University. Amlan specializes in the fields of dynamical systems, optimal control, and optimization, dedicating his research to advancing our understanding and capabilities in space mission design.
 
 About Me
 ======
