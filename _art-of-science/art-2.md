@@ -1,5 +1,5 @@
 ---
-title: "Transfer to Earth-Moon L2 Near Rectilinear Halo Orbit"
+title: "Cosmic Choreography"
 excerpt: "Low-Thrust Robust Transfer from a Geostationary Transfer Orbit to a Earth-Moon L2 Near Rectilinear Halo Orbit"
 collection: art-of-science
 ---
