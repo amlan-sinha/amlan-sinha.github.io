@@ -7,20 +7,27 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to the academic website of Amlan Sinha, a Ph.D. candidate in Mechanical and Aerospace Engineering at Princeton University. Amlan specializes in the fields of dynamical systems, optimal control, and optimization, dedicating his research to advancing our understanding and capabilities in space mission design.
+Welcome to my corner of the internet! I'm Amlan Sinha, an aerospace engineering doctoral candidate at Princeton University, where my focus is on revolutionizing how we navigate the cosmos. My research combines dynamical systems theory, optimal control methods, and nonlinear optimization techniques to further humanity's greatest adventure: space exploration. Whether it's charting more efficient paths for spacecrafts or diving into the intricacies of multibody cislunar dynamics, I'm passionate about pushing the boundaries of what's possible in space mission design.
 
 About Me
 ======
-I am an aerospace engineering Ph.D. candidate at [Princeton University](https://www.princeton.edu/), specializing in robust spacecraft trajectory design under operational uncertainties in multibody gravitational environments. Prior to this, I got my bachelors degree in mechanical engineering from [Cornell University](https://www.cornell.edu/). I was born and grew up in Dhaka, Bangladesh ([See a map of my journey so far!](/my-journey.html)). Outside my academic pursuits, I'm actively involved with various ESG (Environmental, Social and Governance) and DEI (Diversity, Equity and Inclusion) initiatives in various capacities, striving to make a positive impact within my community and beyond.
+My story begins in Dhaka, Bangladesh, where I grew up dreaming of pushing the boundaries of science and engineering ([curious about my journey? Check out this map!](/my-journey.html)). A transformative opportunity came when I was fortunate to receive a full-ride scholarship to study at [Cornell University](https://www.cornell.edu/) - a chance that would shape my future in ways I couldn't imagine. During my college years, I dove deep into mechanical engineering, laying the groundwork for my current path. Today, I'm pursuing my Ph.D. in Aerospace Engineering at [Princeton University](https://www.princeton.edu/), where I'm turning those childhood dreams into reality. Outside my academic pursuits, I'm 
+actively involved with various ESG (Environmental, Social and Governance) and DEI (Diversity, Equity and Inclusion) initiatives in various capacities, 
+striving to make a positive impact within my community and beyond. After all, the best innovations come when diverse perspectives meet at the intersection of science and social impact.
 
 Research Focus
 ======
-Optimization of robust low-thrust (LT) trajectories is inherently more challenging than the traditional single-point deterministic solutions due to their infinite-dimensional nature. Thus far, solution approaches have favored the formulation of computationally tractable methods at the sacrifice of theoretical guarantees, often relying on heuristic margin allocation techniques, rather than using the optimal control paradigm. The state-of-the-art in robust LT trajectory design involves a reformulation into a single-level finite-dimensional nonlinear program with important uncertainty parameters (e.g., missed thrust duration) chosen a priori, which sidesteps a general theory from which better insights may be derived. Bilevel optimization, and bilevel optimal control (BOC) in particular, presents a promising mathematical framework from which to improve the theory and algorithms for solving the robust LT problem. We plan to leverage BOC to accommodate an asynchronous framework that allows for parallelization, adaptability, and extensibility. However, existing literature in this area mostly focuses on multi-level parameter optimization problems, which necessitates theoretical and algorithmic development for addressing the continuous-time problems inherent in trajectory optimization. 
+Low-thrust propulsion systems are becoming increasingly popular in space missions, both large strategic science missions (e.g., Hayabusa, Dawn, Hayabusa2, Bepi-Colombo, Lucy, Psyche) and small technology demonstration missions (e.g., Mars Cube One, NEA Scout, Lunar Flashlight), due to their characteristically high specific impulses which allow them to achieve a higher payload-to-propellant ratio than their impulsive counterparts. However, such LT missions are often susceptible to safe mode events, which occurs if an anomalous event (e.g., impact with space debris) forces the spacecraft to depart from its nominal operating conditions causing it to enter a protective mode during which all thruster operations are switched off - if such a safe mode event coincides with a scheduled thrust arc, it results in what is known as a missed thrust event (MTE). Due to their characteristically long thrust arcs, MTEs are quite common for LT trajectories. And, unless specifically accounted for during the preliminary mission design phase, MTEs can severely impact the mission performance, and in some cases may even result in complete mission failure depending on the remaining mission time, and the available onboard fuel. These effects can be especially dire in missions where success depends on certain maneuvers being performed at critical junctures along the trajectory (e.g., flybys).
 
-My primary objectives are to develop:
-1. A theoretical framework for robust LT mission design with an aim towards formal performance guarantees against a-priori unknown operational uncertainties (e.g., missed thrust events (MTEs))
-2. An efficient computational pipeline leveraging the hierarchical structure inherent within the BOC framework for rapid prototyping of robust LT trajectories during the preliminary mission design phase
-3. Application to a series of capstone problems in complex multibody cislunar dynamics.
+<div style="text-align: center">
+    <img src="/images/technical/missed-thrust-event-schematic.png" alt="Missed Thrust Design" style="width: 600px; max-width: 100%;"/>
+    <p><em>Missed Thrust Design</em></p>
+</div>
+
+My research spans three main thrusts:
+1. **Dynamical Structures**: Investigating how natural dynamical structures (e.g., invariant manifolds in three-body problems) can be exploited to design inherently robust trajectories,
+2. **Algorithmic Enhancements**: Developing more efficient computational approaches for robust trajectory optimization through better initial guess generation, analytic derivatives computation, and parallel computation strategies for rapid solution prototyping,
+3. **Theoretical Foundations**: Incorporating bi-level optimal control framework to provide formal guarantees for robust trajectory design, bridging the gap between theoretical optimality and practical implementation using the inherent hierarchical structure.
 
 **Invitation to Explore**
 
