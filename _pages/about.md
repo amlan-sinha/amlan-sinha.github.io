@@ -7,35 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-<!-- <div class="typing-container">
-  <span id="typed-text"></span>
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    var typed = new Typed("#typed-text", {
-        strings: ["Aerospace Engineer", "Photographer", "Story-teller"],
-        typeSpeed: 100,   // Typing speed in ms
-        backSpeed: 50,    // Erasing speed in ms
-        backDelay: 1500,  // Pause before erasing
-        startDelay: 500,  // Initial delay
-        loop: true        // Infinite loop
-    });
-});
-</script>
-
-<style>
-.typing-container {
-    font-family: Roboto, sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    color: #ffffff;
-    text-align: center;
-    margin-top: 20px;
-}
-</style> -->
-
 Welcome to my corner of the internet! I'm Amlan Sinha, an aerospace engineering doctoral candidate at Princeton University, driven by a passion for reimagining how we navigate the cosmos. My research blends dynamical systems theory, optimal control, and nonlinear optimization to tackle one of humanity’s greatest challenges: space exploration. Whether it's charting more efficient paths for spacecrafts or unraveling the complexities of multibody dynamics, I'm passionate about pushing the boundaries of what's possible in space mission design.
 
 About Me
