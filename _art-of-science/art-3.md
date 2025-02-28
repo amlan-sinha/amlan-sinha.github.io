@@ -1,5 +1,5 @@
 ---
-title: "Chaotic Sea"
+title: "Turbulent Tapestry"
 excerpt: "Invariant Manifolds on Poincaré Surface of Section"
 collection: art-of-science
 ---

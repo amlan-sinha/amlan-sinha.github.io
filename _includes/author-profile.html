@@ -17,6 +17,9 @@
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
+    <div class="typing-container">
+      <span id="typed-text"></span>
+    </div>
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
   </div>
 
@@ -153,3 +156,7 @@
     </ul>
   </div>
 </div>
+
+<!-- Add this in the head section or at the end of the body -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="{{ base_path }}/assets/js/typing.js"></script>

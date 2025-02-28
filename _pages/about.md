@@ -7,13 +7,42 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my corner of the internet! I'm Amlan Sinha, an aerospace engineering doctoral candidate at Princeton University, where my focus is on revolutionizing how we navigate the cosmos. My research combines dynamical systems theory, optimal control methods, and nonlinear optimization techniques to further humanity's greatest adventure: space exploration. Whether it's charting more efficient paths for spacecrafts or diving into the intricacies of multibody cislunar dynamics, I'm passionate about pushing the boundaries of what's possible in space mission design.
+<!-- <div class="typing-container">
+  <span id="typed-text"></span>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var typed = new Typed("#typed-text", {
+        strings: ["Aerospace Engineer", "Photographer", "Story-teller"],
+        typeSpeed: 100,   // Typing speed in ms
+        backSpeed: 50,    // Erasing speed in ms
+        backDelay: 1500,  // Pause before erasing
+        startDelay: 500,  // Initial delay
+        loop: true        // Infinite loop
+    });
+});
+</script>
+
+<style>
+.typing-container {
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+}
+</style> -->
+
+Welcome to my corner of the internet! I'm Amlan Sinha, an aerospace engineering doctoral candidate at Princeton University, driven by a passion for reimagining how we navigate the cosmos. My research blends dynamical systems theory, optimal control, and nonlinear optimization to tackle one of humanity’s greatest challenges: space exploration. Whether it's charting more efficient paths for spacecrafts or unraveling the complexities of multibody dynamics, I'm passionate about pushing the boundaries of what's possible in space mission design.
 
 About Me
 ======
-My story begins in Dhaka, Bangladesh, where I grew up dreaming of pushing the boundaries of science and engineering ([Curious about my journey so far?](/my-journey.html)). A transformative opportunity came when I was fortunate to receive a full-ride scholarship to study at [Cornell University](https://www.cornell.edu/) - a chance that would shape my future in ways I couldn't imagine. During my college years, I dove deep into mechanical engineering, laying the groundwork for my current path. Today, I'm pursuing my Ph.D. in Aerospace Engineering at [Princeton University](https://www.princeton.edu/), where I'm turning those childhood dreams into reality. Outside my academic pursuits, I'm 
-actively involved with various ESG (Environmental, Social and Governance) and DEI (Diversity, Equity and Inclusion) initiatives in various capacities, 
-striving to make a positive impact within my community and beyond. After all, the best innovations come when diverse perspectives meet at the intersection of science and social impact.
+My story begins in Dhaka, Bangladesh, where I grew up with a deep curiosity about science and engineering from a very young age. If you are curious about my life so far, you can check out my [journey](/my-journey.html). After finishing high school, a transformative opportunity came in the form of a full-ride scholarship to study at [Cornell University](https://www.cornell.edu/) - a chance that would shape my future in ways beyond my wildest dreams. During my college years, I dove deep into mechanical engineering, laying the groundwork for my current work. As an undergraduate student, I was fortunate to be mentored by [Prof. Dmitry Savransky](https://sioslab.mae.cornell.edu/), who introduced me to the field of dynamical systems and optimal control. Now, at [Princeton University](https://www.princeton.edu/), I’m transforming those early dreams into reality, exploring the complexities of space mission design. I'm fortunate to be mentored by [Prof. Ryne Beeson](https://beeson.princeton.edu/), who has been the best mentor, adviser and friend one could ask for. His patience, support, and guidance awes me every day.
+
+Beyond my academic pursuits, I’m passionate about fostering positive change through ESG (Environmental, Social, and Governance) and DEI (Diversity, Equity, and Inclusion) initiatives, working to create a more inclusive and impactful scientific community. After all, the most meaningful innovations happen where diverse ideas, disciplines, and perspectives intersect. When I’m not scribbling on a chalkboard or hammering away at a keyboard, I enjoy capturing the world in time through my camera — a creative outlet that helps me see science, nature, and human experiences from new perspectives. If you want to see some of my research photos, you can check them out [here](/art-of-science.md).
 
 Research Focus
 ======
