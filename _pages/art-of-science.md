@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Art of Science"
+title: "Research Gallery"
 permalink: /art-of-science/
 author_profile: true
 ---

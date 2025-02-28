@@ -323,3 +323,21 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   text-align: left;
   margin: 8px 0;
 }
+
+/* ==========================================================================
+   PUBLICATIONS
+   ========================================================================== */
+
+.archive__item {
+  position: relative;
+  
+  .year-label {
+    color: #999;
+    font-size: 2em;
+    font-weight: 200;
+    opacity: 0.5;
+    text-align: right;
+    display: block;
+    margin-bottom: 0.2em;  // Space between year and title
+  }
+}

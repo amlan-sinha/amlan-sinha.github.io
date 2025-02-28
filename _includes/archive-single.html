@@ -14,6 +14,8 @@
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <!-- <div class="year-label">{{ post.date | default: "2024-01-01" | date: "%Y" }}</div> -->
+
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src=
