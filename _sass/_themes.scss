@@ -6,6 +6,12 @@
    TYPOGRAPHY
    ========================================================================== */
 
+$small                      : 600px !default;
+$medium                     : 768px !default;
+$medium-wide                : 900px !default;
+$large                      : 925px !default;
+$x-large                    : 1280px !default;
+
 /* Used to set the size for <em> */
 $doc-font-size              : 16;
 
@@ -64,9 +70,9 @@ $border-color               : $lighter-gray;
    Grid
    ========================================================================== */
 
-$right-sidebar-width-narrow : 20px !default;
-$right-sidebar-width        : 30px !default;
-$right-sidebar-width-wide   : 40px !default;
+$right-sidebar-width-narrow : auto;
+$right-sidebar-width        : auto;
+$right-sidebar-width-wide   : auto;
 
 $susy: (
     columns: 12,
@@ -131,12 +137,6 @@ $medium-wide                : 550px;
 $large                      : 1200px;
 $x-large                    : 1800px;
 */
-
-$small                      : 600px !default;
-$medium                     : 768px !default;
-$medium-wide                : 900px !default;
-$large                      : 925px !default;
-$x-large                    : 1280px !default;
 
 /*
    Grid
