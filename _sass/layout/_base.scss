@@ -350,7 +350,7 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   font-family: $sans-serif;
   font-size: $type-size-6;
   font-weight: bold;
-  color: $text-color;
+  color: var(--global-text-color);
   text-align: left;
   margin: 8px 0;
 }

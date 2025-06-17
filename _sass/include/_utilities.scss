@@ -197,148 +197,147 @@ body:hover .visually-hidden button {
 
 .social-icons {
   .fa {
-    color: #000;
+    color: var(--global-icon-color);
+  }
+  
+  .ai {
+    color: var(--global-icon-color);
   }
 
   .fa-location-dot {
-    color: #fff;
+    color: var(--global-icon-color);
   }
 
   .fa-building-columns {
-    color: #fff;
+    color: var(--global-icon-color);
   }
 
   .fa-bluesky,
   .fa-bluesky-square {
-    color: $bluesky-color;
+    color: var(--global-icon-color);
   }
 
   .fa-behance,
   .fa-behance-square {
-    color: $behance-color;
+    color: var(--global-icon-color);
   }
 
   .fa-dribbble {
-    color: $dribbble-color;
+    color: var(--global-icon-color);
   }
 
   .fa-facebook,
   .fa-facebook-square {
-    color: $facebook-color;
+    color: var(--global-icon-color);
   }
 
   .fa-flickr {
-    color: $flickr-color;
+    color: var(--global-icon-color);
   }
 
   .fa-foursquare {
-    color: $foursquare-color;
+    color: var(--global-icon-color);
   }
 
   .fa-github,
   .fa-github-alt,
   .fa-github-square {
-    // color: $github-color;
-    color: #fff;
+    color: var(--global-icon-color);
   }
 
   .fa-bitbucket,
   .fa-bitbucket-alt,
   .fa-bitbucket-square {
-    // color: $bitbucket-color;
-    color: #fff;
+    color: var(--global-icon-color);
   }
 
   .ai-google-scholar,
   .ai-google-scholar-square {
-    // color: $google-scholar-color;
-    color: #fff;
+    color: var(--global-icon-color);
   }
 
   .fa-google-plus,
   .fa-google-plus-square {
-    color: $google-plus-color;
+    color: var(--global-icon-color);
   }
 
   .fa-instagram {
-    color: $instagram-color;
+    color: var(--global-icon-color);
   }
 
   .fa-kaggle,
   .fa-kaggle-square {
-    color: $kaggle-color;
+    color: var(--global-icon-color);
   }
 
   .fa-lastfm,
   .fa-lastfm-square {
-    color: $lastfm-color;
+    color: var(--global-icon-color);
   }
 
   .fa-linkedin,
   .fa-linkedin-square {
-    // color: $linkedin-color;
-    color: #fff;
+    color: var(--global-icon-color);
   }
 
   .fa-mastodon,
   .fa-mastodon-square {
-    color: $mastodon-color;
+    color: var(--global-icon-color);
   }
 
   .ai-orcid,
   .ai-orcid-square {
-    // color: $orcid-color;
-    color: #fff;
+    color: var(--global-icon-color);
   }
 
   .fa-pinterest,
   .fa-pinterest-p,
   .fa-pinterest-square {
-    color: $pinterest-color;
+    color: var(--global-icon-color);
   }
 
   .fa-rss,
   .fa-rss-square {
-    color: $rss-color;
+    color: var(--global-icon-color);
   }
 
   .fa-soundcloud {
-    color: $soundcloud-color;
+    color: var(--global-icon-color);
   }
 
   .fa-stack-exchange,
   .fa-stack-overflow {
-    color: $stackoverflow-color;
+    color: var(--global-icon-color);
   }
 
   .fa-tumblr,
   .fa-tumblr-square {
-    color: $tumblr-color;
+    color: var(--global-icon-color);
   }
 
   .fa-twitter,
   .fa-twitter-square {
-    color: $twitter-color;
+    color: var(--global-icon-color);
   }
 
   .fa-vimeo,
   .fa-vimeo-square {
-    color: $vimeo-color;
+    color: var(--global-icon-color);
   }
 
   .fa-vine {
-    color: $vine-color;
+    color: var(--global-icon-color);
   }
 
   .fa-youtube,
   .fa-youtube-square,
   .fa-youtube-play {
-    color: $youtube-color;
+    color: var(--global-icon-color);
   }
 
   .fa-xing,
   .fa-xing-square {
-    color: $xing-color;
+    color: var(--global-icon-color);
   }
 }
 
