@@ -8,49 +8,47 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default"
-title                    : "Your Name / Site Title"
+title                    : "Amlan Sinha"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+name                     : &name "Amlan Sinha"
+description              : &description "Aerospace Engineer"
+url                      : https://amlan-sinha.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "amlan-sinha.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  avatar           : "pic_amlans.jpg"
+  name             : "অম্লান সিনহা"
+  pronouns         : "he/him/his"  
+  bio              : 
+  location         : "Princeton, New Jersey"
+  employer         : "Princeton University"
+  url              : # "https://amlan-sinha.github.io"
+  email            : "amlans@princeton.edu" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=T-GVMBMAAAAJ&hl=en"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
-  semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  orcid            : https://orcid.org/0009-0001-4572-7583
+  pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
 
   # Repositories and software development
-  bitbucket        : # Username - Update with your username on the site
+  bitbucket        : "amlan-sinha"
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "amlan-sinha"
   kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  stackoverflow    : # Username  
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -59,21 +57,21 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
-  mastodon         : # URL
-  medium           : # URL
+  linkedin         : "amlansinha"
+  mastodon         : # Username  
+  medium           : # Username  
   pinterest        : # Username
   soundcloud       : # Username
   steam            : # Username
-  telegram         : # URL
+  telegram         : # Username  
   tumblr           : # Username
-  twitter          : # Username for X / Twitter
+  twitter          : # Username  
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
   xing             : # Username
   youtube          : # Username
-  zhihu            : # Username
+  zhihu            : # Username  
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
@@ -85,12 +83,12 @@ publication_category:
     title: 'Conference Papers'
 
 # Site Settings
-teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false      #change to true to add link to talkmap on talks page
+talkmap_link             : true #change to true to add link to talkmap on talks page
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -123,7 +121,7 @@ atom_feed:
 
 
 # SEO Related
-google_site_verification :
+google_site_verification : "Luuh5s6L--YGPukJeZW557PQiT0-rM_-GzP9MOlH7Gg"
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
@@ -149,7 +147,7 @@ social:
 analytics:
   provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "G-6CH8HWGPJ6"
 
 
 # Reading Files
@@ -213,33 +211,25 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  talks:
     output: true
     permalink: /:collection/:path/
-  talks:
+  art-of-science:
+    output: true
+    permalink: /:collection/:path/
+  teaching:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
     output: true
     permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
   # _pages
   - scope:
       path: ""
@@ -247,19 +237,36 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # _publications
   - scope:
       path: ""
-      type: teaching
+      type: publications
     values:
       layout: single
       author_profile: true
       share: true
       comments: true
-  # _publications
+  # _talks
   - scope:
       path: ""
-      type: publications
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
+  # _art-of-science
+  - scope:
+      path: ""
+      type: art-of-science
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
     values:
       layout: single
       author_profile: true
@@ -273,15 +280,18 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comment: true
-  # _talks
+      comments: true
+  # _posts
   - scope:
       path: ""
-      type: talks
+      type: posts
     values:
-      layout: talk
+      layout: single
       author_profile: true
+      read_time: true
+      comments: true
       share: true
+      related: true
 
 
 # Sass/SCSS
@@ -294,7 +304,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
@@ -304,9 +314,8 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from
-  - jemoji
-
-# Mimic GitHub Pages with --safe
+  - jekyll-seo-tag
+# mimic GitHub Pages with --safe
 whitelist:
   - jekyll-feed
   - jekyll-gist

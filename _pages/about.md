@@ -1,49 +1,36 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Welcome to Amlan Sinha's World"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+Welcome to my corner of the internet! I'm Amlan Sinha, an aerospace engineering doctoral candidate at Princeton University, driven by a passion for reimagining how we navigate the cosmos. My research blends dynamical systems theory, optimal control, and nonlinear optimization to tackle one of humanity’s greatest challenges: space exploration. Whether it's charting more efficient paths for spacecrafts or unraveling the complexities of multibody dynamics, I'm passionate about pushing the boundaries of what's possible in space mission design.
 
-A data-driven personal website
+About Me
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+My story begins in Dhaka, Bangladesh, where I grew up with a deep curiosity about science and engineering from a very young age. If you are curious about my life so far, you can check out my [journey](/my-journey.html). After finishing high school, a transformative opportunity came in the form of a full-ride scholarship to study at [Cornell University](https://www.cornell.edu/) - a chance that would shape my future in ways beyond my wildest dreams. During my college years, I dove deep into mechanical engineering, laying the groundwork for my current work. As an undergraduate student, I was fortunate to be mentored by [Prof. Dmitry Savransky](https://sioslab.mae.cornell.edu/), who introduced me to the field of dynamical systems and optimal control. Now, at [Princeton University](https://www.princeton.edu/), I’m transforming those early dreams into reality, exploring the complexities of space mission design. I'm fortunate to be mentored by [Prof. Ryne Beeson](https://beeson.princeton.edu/), who has been the best mentor, adviser and friend one could ask for. His patience, support, and guidance awes me every day.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+Beyond my academic pursuits, I’m passionate about fostering positive change through ESG (Environmental, Social, and Governance) and DEI (Diversity, Equity, and Inclusion) initiatives, working to create a more inclusive and impactful scientific community. After all, the most meaningful innovations happen where diverse ideas, disciplines, and perspectives intersect. When I’m not scribbling on a chalkboard or hammering away at a keyboard, I enjoy capturing the world in time through my camera — a creative outlet that helps me see science, nature, and human experiences from new perspectives. If you want to see some of my research photos, you can check them out [here](/art-of-science.md).
 
-Getting started
+Research Focus
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+Low-thrust (LT) propulsion systems are becoming increasingly popular in space missions, both large strategic science missions (e.g., Hayabusa, Dawn, Hayabusa2, Bepi-Colombo, Lucy, Psyche) and small technology demonstration missions (e.g., Mars Cube One, NEA Scout, Lunar Flashlight), due to their characteristically high specific impulses which allow them to achieve a higher payload-to-propellant ratio than their impulsive counterparts. However, such LT missions are often susceptible to safe mode events, which occurs if an anomalous event (e.g., impact with space debris) forces the spacecraft to depart from its nominal operating conditions causing it to enter a protective mode during which all thruster operations are switched off - if such a safe mode event coincides with a scheduled thrust arc, it results in what is known as a missed thrust event (MTE). Due to their characteristically long thrust arcs, MTEs are quite common for LT trajectories. And, unless specifically accounted for during the preliminary mission design phase, MTEs can severely impact the mission performance, and in some cases may even result in complete mission failure depending on the remaining mission time, and the available onboard fuel. These effects can be especially dire in missions where success depends on certain maneuvers being performed at critical junctures along the trajectory (e.g., flybys).
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+<div style="text-align: center">
+    <img src="/images/technical/missed-thrust-event-schematic.png" alt="Missed Thrust Design" style="width: 600px; max-width: 100%;"/>
+    <p><em>Missed Thrust Design</em></p>
+</div>
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+My research spans three main thrusts:
+1. **Dynamical Structures**: Investigating how natural dynamical structures (e.g., invariant manifolds in three-body problems) can be exploited to design inherently robust trajectories,
+2. **Algorithmic Enhancements**: Developing more efficient computational approaches for robust trajectory optimization through better initial guess generation, analytic derivatives computation, and parallel computation strategies for rapid solution prototyping,
+3. **Theoretical Foundations**: Incorporating bi-level optimal control framework to provide formal guarantees for robust trajectory design, bridging the gap between theoretical optimality and practical implementation using the inherent hierarchical structure.
 
-**Markdown generator**
+**Invitation to Explore**
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+I invite you to explore my site further to learn about my research projects, publications, and teaching endeavors. Whether you're a student interested in the field of astrodynamics, a fellow researcher, or someone passionate about the future of space exploration, I look forward to sharing insights and engaging in meaningful discussions.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+Thank you for visiting, and let's embark on this journey to the stars together.

@@ -338,21 +338,30 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   transition: $global-transition;
 }
 
+/* Typing container */
+.typing-container {
+  font-family: $sans-serif;
+  font-size: $type-size-6;
+  font-weight: bold;
+  color: $text-color;
+  text-align: left;
+  margin: 8px 0;
+}
+
 /* ==========================================================================
-   PRINT STYLES
+   PUBLICATIONS
    ========================================================================== */
 
-/*
-   Hide the following elements on print
-   ========================================================================== */
-
-   @media print {
-    .masthead,
-    .toc,
-    .page__share,
-    .page__related,
-    .ads,
-    .page__footer {
-      display: none;
-    }
+.archive__item {
+  position: relative;
+  
+  .year-label {
+    color: #999;
+    font-size: 2em;
+    font-weight: 200;
+    opacity: 0.5;
+    text-align: right;
+    display: block;
+    margin-bottom: 0.2em;  // Space between year and title
   }
+}

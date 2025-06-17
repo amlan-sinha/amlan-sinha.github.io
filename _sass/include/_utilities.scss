@@ -200,6 +200,14 @@ body:hover .visually-hidden button {
     color: #000;
   }
 
+  .fa-location-dot {
+    color: #fff;
+  }
+
+  .fa-building-columns {
+    color: #fff;
+  }
+
   .fa-bluesky,
   .fa-bluesky-square {
     color: $bluesky-color;
@@ -230,7 +238,21 @@ body:hover .visually-hidden button {
   .fa-github,
   .fa-github-alt,
   .fa-github-square {
-    color: $github-color;
+    // color: $github-color;
+    color: #fff;
+  }
+
+  .fa-bitbucket,
+  .fa-bitbucket-alt,
+  .fa-bitbucket-square {
+    // color: $bitbucket-color;
+    color: #fff;
+  }
+
+  .ai-google-scholar,
+  .ai-google-scholar-square {
+    // color: $google-scholar-color;
+    color: #fff;
   }
 
   .fa-google-plus,
@@ -254,7 +276,8 @@ body:hover .visually-hidden button {
 
   .fa-linkedin,
   .fa-linkedin-square {
-    color: $linkedin-color;
+    // color: $linkedin-color;
+    color: #fff;
   }
 
   .fa-mastodon,
@@ -264,7 +287,8 @@ body:hover .visually-hidden button {
 
   .ai-orcid,
   .ai-orcid-square {
-    color: $orcid-color;
+    // color: $orcid-color;
+    color: #fff;
   }
 
   .fa-pinterest,

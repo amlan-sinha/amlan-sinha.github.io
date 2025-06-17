@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_eb19874bcfed39006ac9a6c44d030272 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_eb19874bcfed39006ac9a6c44d030272" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_eb19874bcfed39006ac9a6c44d030272 = L.map(
+                "map_eb19874bcfed39006ac9a6c44d030272",
+                {
+                    center: [40.0, -74.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8f60df251b56d1fe46637c3c48127d5e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_8f60df251b56d1fe46637c3c48127d5e.addTo(map_eb19874bcfed39006ac9a6c44d030272);
+        
+    
+            var marker_491c31e3f00369711414f8dfa9208f82 = L.marker(
+                [23.7644025, 90.389015],
+                {}
+            ).addTo(map_eb19874bcfed39006ac9a6c44d030272);
+        
+    
+        var popup_4f0a2be14776a236366bb832cd41e791 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e037e488d604049c95af8c57981bd158 = $(`<div id="html_e037e488d604049c95af8c57981bd158" style="width: 100.0%; height: 100.0%;">Dhaka, Bangladesh</div>`)[0];
+                popup_4f0a2be14776a236366bb832cd41e791.setContent(html_e037e488d604049c95af8c57981bd158);
+            
+        
+
+        marker_491c31e3f00369711414f8dfa9208f82.bindPopup(popup_4f0a2be14776a236366bb832cd41e791)
+        ;
+
+        
+    
+    
+            var marker_af2c4660f0654aafade3cdd7b59d943a = L.marker(
+                [42.437417499999995, -76.54837235139263],
+                {}
+            ).addTo(map_eb19874bcfed39006ac9a6c44d030272);
+        
+    
+        var popup_b0f962c7704c13da6384894d67f15563 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe542b178292513c1bce40c61a47ceda = $(`<div id="html_fe542b178292513c1bce40c61a47ceda" style="width: 100.0%; height: 100.0%;">Ithaca, New York, USA</div>`)[0];
+                popup_b0f962c7704c13da6384894d67f15563.setContent(html_fe542b178292513c1bce40c61a47ceda);
+            
+        
+
+        marker_af2c4660f0654aafade3cdd7b59d943a.bindPopup(popup_b0f962c7704c13da6384894d67f15563)
+        ;
+
+        
+    
+    
+            var marker_ba91e040c6a04792dfa0cd1595aba4b8 = L.marker(
+                [40.3496953, -74.6597376],
+                {}
+            ).addTo(map_eb19874bcfed39006ac9a6c44d030272);
+        
+    
+        var popup_cfe3a60fcc267a60a5e88e02a86a5432 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_111786fff4150e1c5e8c5869a5a6886b = $(`<div id="html_111786fff4150e1c5e8c5869a5a6886b" style="width: 100.0%; height: 100.0%;">Princeton, New Jersey, USA</div>`)[0];
+                popup_cfe3a60fcc267a60a5e88e02a86a5432.setContent(html_111786fff4150e1c5e8c5869a5a6886b);
+            
+        
+
+        marker_ba91e040c6a04792dfa0cd1595aba4b8.bindPopup(popup_cfe3a60fcc267a60a5e88e02a86a5432)
+        ;
+
+        
+    
+</script>
+</html>
