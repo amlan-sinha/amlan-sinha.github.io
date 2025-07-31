@@ -7,7 +7,7 @@ date: 2025-06-15
 venue: 'Journal of Guidance, Control, and Dynamics'
 paperurl: 'https://doi.org/10.2514/1.G008818'
 bibtexurl: /files/amlans_2025a.bib
-citation: 'Amlan Sinha and Ryne Beeson, "Statistical Analysis of the Role of Invariant Manifolds on Robust Trajectories," Journal of Guidance, Control, and Dynamics (2025).'
+citation: 'Amlan Sinha and Ryne Beeson, "Statistical Analysis of the Role of Invariant Manifolds on Robust Trajectories", Journal of Guidance, Control, and Dynamics, Vol. 48, No. 8 (2025), pp. 1818-1839, doi: doi/abs/10.2514/1.G008818.'
 ---
 
 <div style="text-align: center">
