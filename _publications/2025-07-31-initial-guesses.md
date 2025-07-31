@@ -1,11 +1,11 @@
 ---
 title: "Initial Guess Generation for Low-Thrust Trajectory Design with Robustness to Missed-Thrust-Events"
 collection: publications
-permalink: /publication/2025-01-25-initial-guess
+permalink: /publication/2025-07-31-initial-guess
 excerpt: 'We propose a novel initial guess generation strategy for missed thrust design which leverages solutions from problems with lower problem complexity, demonstrating superior convergence properties relative to conventional global search methods in high-dimensional nonlinear programs.'
 date: 2025-07-31
 venue: 'Journal of Guidance, Control, and Dynamics'
-paperurl: 'https://arxiv.org/abs/2501.06694'
+paperurl: 'https://doi.org/10.2514/1.G008818'
 bibtexurl: /files/amlans_2025b.bib
 citation: 'Sinha, Amlan, and Beeson, Ryne. "Initial Guess Generation for Low-Thrust Trajectory Design with Robustness to Missed-Thrust-Events", Journal of Guidance, Control, and Dynamics (2025).'
 ---

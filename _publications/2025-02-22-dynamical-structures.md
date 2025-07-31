@@ -1,9 +1,9 @@
 ---
 title: "Statistical Analysis of the Role of Invariant Manifolds on Robust Trajectories"
 collection: publications
-permalink: /publication/2025-06-15-dynamical-structures
+permalink: /publication/2025-02-22-dynamical-structures
 excerpt: 'Through comprehensive statistical analysis of low-thrust solutions in multibody environments, we demonstrate that optimal solutions — both robust and non-robust — exhibit strong correlation with invariant manifolds in three-body systems, establishing a fundamental connection between dynamical structures and solution robustness against operational uncertainties.'
-date: 2025-06-15
+date: 2025-02-22
 venue: 'Journal of Guidance, Control, and Dynamics'
 paperurl: 'https://doi.org/10.2514/1.G008818'
 bibtexurl: /files/amlans_2025a.bib
