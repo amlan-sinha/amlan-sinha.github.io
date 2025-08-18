@@ -25,9 +25,9 @@ Low-thrust (LT) propulsion systems are becoming increasingly popular in space mi
 </div>
 
 My research spans three main thrusts:
-1. **Dynamical Structures**: Investigating how natural dynamical structures (e.g., invariant manifolds in three-body dynamical systems) can be leveraged to promote robustness in low-thrust solutions in complex multibody dynamical systems,
-2. **Algorithmic Enhancements**: Developing existing computational approaches can be improved through better initial guess generation, analytic derivatives computation, and parallel computation strategies,
-3. **Theoretical Foundations**: Incorporating ideas from bi-level optimal control theory to provide formal guarantees for robust low-thrust trajectory design, bridging the gap between theoretical optimality and practical implementation.
+1. **Dynamical Structures**: Investigating how natural dynamical structures (e.g., invariant manifolds in three-body dynamical systems) can be exploited to promote robustness in low-thrust solutions within complex multibody dynamical systems,
+2. **Algorithmic Enhancements**: Improving state-of-the-art computational approaches through better initial guess generation, analytic derivatives computation, and parallel computation strategies,
+3. **Theoretical Foundations**: Incorporating bi-level optimal control theory to provide formal guarantees for robust low-thrust trajectory design, bridging the gap between theoretical optimality and practical implementation.
 
 **Invitation to Explore**
 
