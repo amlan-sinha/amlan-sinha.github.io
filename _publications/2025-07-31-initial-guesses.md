@@ -7,7 +7,7 @@ date: 2025-07-31
 venue: 'Journal of Guidance, Control, and Dynamics'
 paperurl: 'https://doi.org/10.2514/1.G009050'
 bibtexurl: /files/amlans_2025b.bib
-citation: 'Sinha, Amlan, and Beeson, Ryne. "Initial Guess Generation for Low-Thrust Trajectory Design with Robustness to Missed-Thrust-Events", Journal of Guidance, Control, and Dynamics, Vol. 00, No. 0 (2025), pp. 0000-0000, doi: doi/abs/10.2514/1.G008818.'
+citation: 'Sinha, Amlan, and Beeson, Ryne. "Initial Guess Generation for Low-Thrust Trajectory Design with Robustness to Missed-Thrust-Events", Journal of Guidance, Control, and Dynamics, Vol. 48, No. 12 (2025), pp. 2831-2848, doi: doi/abs/10.2514/1.G009050.'
 ---
 
 <div style="text-align: center">
