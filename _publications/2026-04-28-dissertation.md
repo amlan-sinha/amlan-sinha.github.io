@@ -2,7 +2,7 @@
 title: "Towards Robust Low-Thrust Trajectory Design Under Missed Thrust Events"
 collection: publications
 permalink: /publication/2026-04-28-dissertation
-excerpt: 'We propose a novel initial guess generation strategy for missed thrust design which leverages solutions from problems with lower problem complexity, demonstrating superior convergence properties relative to conventional global search methods in high-dimensional nonlinear programs.'
+excerpt: 'Low-thrust spacecraft propulsion systems enable highly efficient transfers, but their low control authority and long maneuver durations make them vulnerable to maneuver execution errors, particularly missed thrust events. This dissertation develops theoretical and computational tools for robust low-thrust trajectory design under missed thrust events, with emphasis on preliminary mission design, where computational efficiency and solution robustness must be addressed simultaneously.'
 date: 2026-04-28
 venue: 'Proquest'
 paperurl: 'https://www.proquest.com/docview/3347318825'
