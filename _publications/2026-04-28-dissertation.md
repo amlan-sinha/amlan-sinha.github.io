@@ -1,0 +1,20 @@
+---
+title: "Towards Robust Low-Thrust Trajectory Design Under Missed Thrust Events"
+collection: publications
+permalink: /publication/2026-04-28-dissertation
+excerpt: 'We propose a novel initial guess generation strategy for missed thrust design which leverages solutions from problems with lower problem complexity, demonstrating superior convergence properties relative to conventional global search methods in high-dimensional nonlinear programs.'
+date: 2026-04-28
+venue: 'Proquest'
+paperurl: 'https://www.proquest.com/docview/3347318825'
+bibtexurl: /files/amlans_thesis.bib
+citation: Sinha, Amlan. "Towards Robust Low-Thrust Trajectory Design Under Missed Thrust Events." Order No. 32677701, Princeton University, United States -- New Jersey, 2026.
+---
+
+<!-- <div style="text-align: center">
+    <img src="/images/papers/initial-guess/initial-guess-schematic.png" alt="Conditional Global Search" style="width: 600px; max-width: 100%;"/>
+    <p><em>Conditional Global Search</em></p>
+</div> -->
+
+Low-thrust spacecraft propulsion systems enable highly efficient transfers, but their low control authority and long maneuver durations make them vulnerable to maneuver execution errors, particularly missed thrust events. This challenge is amplified in multibody dynamical environments (e.g., the cislunar regime), where invariant dynamical structures facilitate efficient transport, but render solutions highly sensitive to perturbations. This dissertation develops theoretical and computational tools for robust low-thrust trajectory design under missed thrust events, with emphasis on preliminary mission design, where computational efficiency and solution robustness must be addressed simultaneously. First, the missed thrust design problem is formulated as a robust optimal control problem which couples a nominal reference trajectory to a set of realization trajectories representing candidate missed thrust scenarios. To improve computational scalability, analytic derivatives are derived for the resulting nonlinear program, including cross-sensitivities between reference and realization solutions. A conditional global search framework is developed in which solutions to lower complexity robust problems are systematically mapped as initial guesses for higher complexity instances. Numerical studies demonstrate that this sequential strategy substantially improves convergence as problem complexity increases, revealing an underlying continuation structure in the robust solution space. Second, the role of invariant dynamical structures is examined quantitatively using distance metrics on Poincar\'e sections and qualitatively using normal forms about periodic orbits. Analysis using distance metrics on Poincar\'e sections shows that robust trajectories align with the invariant manifolds of relevant periodic orbits in a manner which depends on where along the trajectory the missed thrust event occurs, indicating that robustness is shaped by both control effort and favorable placement within phase space. Complementing this global view, the normal form construction provides a local Hamiltonian chart which organizes the hyperbolic, oscillatory, and neutral directions, thereby enabling a geometric interpretation of how nearby low-thrust trajectories exploit the local manifold structure. Finally, the missed thrust problem is reformulated as a bilevel optimal control problem, yielding analytic robustness certification tools, including bounds on the admissible outage duration and controllability energy diagnostics for recovery feasibility. Collectively, these results provide theoretical insights and computational methodologies for designing low-thrust trajectories which remain feasible under realistic operational uncertainties.
+
+[thesis](/files/amlans_thesis.pdf){: .btn--research} [slides](/files/amlans_fpo.pdf){: .btn--research}
