@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Amlan Sinha"
 title_separator          : "-"
 name                     : &name "Amlan Sinha"
-description              : &description "Aerospace Engineer"
+description              : &description "Quantitative Researcher"
 url                      : https://amlan-sinha.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "amlan-sinha.github.io"
@@ -25,10 +25,10 @@ author:
   name             : "অম্লান সিনহা"
   pronouns         : "he/him/his"  
   bio              : 
-  location         : "Princeton, New Jersey"
-  employer         : "Princeton University"
+  location         : "New York City Metropolitan Area"
+  employer         : "J.P. Morgan"
   url              : # "https://amlan-sinha.github.io"
-  email            : "amlans@princeton.edu" 
+  email            : "amlan.sunnydale@gmail.com" 
 
   # Academic websites
   academia         : # URL
